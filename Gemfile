@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 2.5'
 # Specify loofag version due to security vulnerability
 gem "loofah", ">= 2.2.3"
 
+# Specify rubyzip version due to security vulnerability
+gem "rubyzip", ">= 1.2.2"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap'
